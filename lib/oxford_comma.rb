@@ -7,7 +7,7 @@ end
     array.count == 2
     array.join(" and ")
   else
-    final = array.pop
-    array.join(", ") << ", and #{final}"
+    last  = array.pop
+    array.join(", ") << ", and #{last}"
 end
 end
