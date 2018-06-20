@@ -1,8 +1,10 @@
 def oxford_comma(array)
-if array.count == 1
+  if
+    array.count == 1
 end
-array.join
-  elsif array.count == 2
+  array.join
+  elsif
+    array.count == 2
     array.join(" and ")
   else
     final = array.pop
